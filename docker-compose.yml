@@ -1,0 +1,13 @@
+services:
+  oracle-datacore:
+    build: .
+    container_name: oracle-datacore-portal
+    restart: unless-stopped
+    ports:
+      - "3030:3030"
+    environment:
+      - PORT=3030
+      - NODE_ENV=production
+    volumes:
+      - ./nodes.json:/app/nodes.json
+      - ./databases.json:/app/databases.json

@@ -1,0 +1,8 @@
+{
+  "name": "DataCore - Enterprise Infrastructure Hub & Data Guard Portal",
+  "description": "An Enterprise Infrastructure Hub integrating Network Operations (NOC), Security Operations (SOC), Cyber Defense & Threat Intelligence (CDTIC), Asset Auto-Discovery, AES-256 Credential Vault, and Oracle Data Guard / RAC Control with automated safe remediation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

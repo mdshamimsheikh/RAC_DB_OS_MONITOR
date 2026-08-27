@@ -1,0 +1,11 @@
+{
+  "host": "RAC-SCAN",
+  "port": 1521,
+  "serviceName": "RACPDB1",
+  "user": "MEDICARE_RAC",
+  "password": "medicare_rac",
+  "tablespace": "DATACORE_TS",
+  "connected": true,
+  "autoSchemaInitialized": true,
+  "lastTested": "2026-07-25T10:40:00.000Z"
+}
